@@ -1,6 +1,6 @@
 {
   "name": "egg-validator2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A validate plugin for egg based on validator. Best suited for request parameter validation.",
   "eggPlugin": {
     "name": "validator2"
@@ -11,6 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "egg-validator2": "^1.0.1",
     "validator": "^9.4.1"
   },
   "devDependencies": {
@@ -47,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-validator2.git"
+    "url": "git+https://github.com/ValueFE/egg-validator2.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/ValueFE/egg-validator2/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-validator2#readme",
+  "homepage": "https://github.com/ValueFE/egg-validator2#readme",
   "author": "Alex.Zhang",
   "license": "MIT"
 }

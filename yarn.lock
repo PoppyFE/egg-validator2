@@ -2107,6 +2107,12 @@ egg-utils@^2.2.0, egg-utils@^2.3.0:
     mkdirp "^0.5.1"
     utility "^1.13.1"
 
+egg-validator2@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/egg-validator2/-/egg-validator2-1.0.1.tgz#76a4bbe60459ae2f849f3cf6da62960c0e5a33ad"
+  dependencies:
+    validator "^9.4.1"
+
 egg-view@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/egg-view/-/egg-view-2.1.0.tgz#aa7ca0344213f5d72147d6001bc0503f858b425c"
