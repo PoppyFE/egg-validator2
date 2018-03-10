@@ -4453,6 +4453,10 @@ param-case@^2.1.0:
   dependencies:
     no-case "^2.2.0"
 
+parameter@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/parameter/-/parameter-2.2.1.tgz#2ab9d73e1beb9f3a87a5548c7003a9a9489170d7"
+
 parse-glob@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/parse-glob/-/parse-glob-3.0.4.tgz#b2c376cfb11f35513badd173ef0bb6e3a388391c"
