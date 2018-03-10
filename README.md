@@ -20,9 +20,8 @@
 [download-image]: https://img.shields.io/npm/dm/egg-validator2.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-validator2
 
-<!--
 A validate plugin for egg based on [validator](https://github.com/chriso/validator.js). Best suited for request parameter validation.
--->
+
 
 ## Install
 
