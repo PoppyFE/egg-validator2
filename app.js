@@ -18,6 +18,10 @@ const customerValidator = {
   },
 
   isValidIdName(val) {
+    if (!val) return false;
+    if (val.length > 15) {
+      return false;
+    }
     return idNameReg.test(val);
   },
 };
