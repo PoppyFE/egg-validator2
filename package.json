@@ -1,6 +1,6 @@
 {
   "name": "egg-validator2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A validate plugin for egg based on validator. Best suited for request parameter validation.",
   "eggPlugin": {
     "name": "validator2"
