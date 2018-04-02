@@ -28,7 +28,10 @@ const customerValidator = {
     return idNameReg.test(val);
   },
 
+  // https://github.com/ContaAzul/creditcard.js
   creditcard: new Creditcard(),
+
+  // https://github.com/mc-zone/IDValidator
   idcard: new IDValidator(GB2260),
 
 };
