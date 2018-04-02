@@ -1,6 +1,6 @@
 {
   "name": "egg-validator2",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A validate plugin for egg based on validator. Best suited for request parameter validation.",
   "eggPlugin": {
     "name": "validator2"
@@ -11,7 +11,9 @@
     "egg-plugin"
   ],
   "dependencies": {
+    "creditcard.js": "^2.1.3",
     "egg-validator2": "^1.0.1",
+    "id-validator": "^1.3.0",
     "parameter": "^2.2.1",
     "validator": "^9.4.1"
   },

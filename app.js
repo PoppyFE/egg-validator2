@@ -2,6 +2,9 @@
 
 const validator = require('validator');
 const Parameter = require('parameter');
+const Creditcard = require('creditcard.js');
+const IDValidator = require('id-validator');
+const GB2260 = require('id-validator/src/GB2260');
 
 // 8-20 必须包含至少一个
 const passwrodRegexp = new RegExp('^(?=.*[a-zA-Z])(?=.*\\d)(?=.*[#@!~%^&*])[a-zA-Z\\d#@!~%^&*].{7,19}$');
@@ -24,6 +27,10 @@ const customerValidator = {
     }
     return idNameReg.test(val);
   },
+
+  creditcard: new Creditcard(),
+  idcard: new IDValidator(GB2260),
+
 };
 
 module.exports = app => {
